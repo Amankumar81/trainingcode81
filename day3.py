@@ -109,10 +109,10 @@ b=20
 
  # print vowel 
 # x=input("enter the variable:")   
-# if 'a'or 'e' or 'i' or 'o' or 'u':
-#     print(" it is vowel")
+# if x=='a'or 'e' or 'i' or 'o' or 'u':
+#      print(" it is vowel")
 # else:
-#     print("it is constant")
+#      print("it is constant")
  
 
 # loops
@@ -128,7 +128,6 @@ b=20
 #     # print(i)       
 #     if i=="ayush":
     #  break   
-    # continue()
     # print(i)
 
 # for x in range(10):
@@ -162,6 +161,6 @@ b=20
 # fruits=["apple"," mango","cherry"]
 # for index,fruits in enumerate(fruits):
 #      print(index,fruits)
-lst=["amna","harsh","ayush"]
-for i in (lst):
-    print(lst)
+# lst=["amna","harsh","ayush"]
+# for i in (lst):
+#     print(lst)
