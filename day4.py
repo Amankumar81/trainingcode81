@@ -170,31 +170,39 @@
    
 # calculator in python
 
-def add(n1,n2):
-    return n1+n2
-def sub(n1,n2):
-    return n1-n2
-def mul(n1,n2):
-    return n1*n2
-def div(n1,n2):
-    return n1/n2
+# def add(n1,n2):
+#     return n1+n2
+# def sub(n1,n2):
+#     return n1-n2 
+# def mul(n1,n2):
+#     return n1*n2
+# def div(n1,n2):
+#     return n1/n2
 
-n1=int(input("enter the value:"))
-ope=input("enter the operation:")
-n2=int(input("enter the value:"))
-if ope=='+':
-    add(n1,n2)
-    print(n1+n2)
-elif ope=='-':
-    sub(n1,n2)
-    print(n1-n2)
-elif ope=='*':
-    mul(n1,n2)
-    print(n1*n2) 
-elif ope=='/':
-    div(n1,n2)
-    print(n1/n2)
-else:
-    print("enter the rigit opeartor")           
+# n1=int(input("enter the value:"))
+# ope=input("enter the operation:")
+# n2=int(input("enter the value:"))
+# if ope=='+':
+#     add(n1,n2)
+#     print(n1+n2)
+# elif ope=='-':
+#     sub(n1,n2)
+#     print(n1-n2)
+# elif ope=='*':
+#     mul(n1,n2)
+#     print(n1*n2) 
+# elif ope=='/':
+#     div(n1,n2)
+#     print(n1/n2)
+# else:
+#     print("enter the rigit opeartor")           
 
+
+class student:
+    name="aman"
+    rollno="23eldcs004"
+    def __inti__(self):
+        print("aman upadhyay")
+s = student()    
+print(s.name)
 
