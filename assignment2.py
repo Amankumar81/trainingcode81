@@ -35,7 +35,7 @@ class vowel:
      def __init__(self,vo_wel):
        self.vo_wel1=vo_wel
      def count_vowels(self):
-         print(self.vo_wel1.count('aeiouAEIOU'))     
+         print(self.vo_wel1.count('a' or 'e' or 'i' or 'o' or 'u' 'A' or 'E' or 'I' or 'O' or 'U'  ))     
 vo_wel=input("enter the srting:") 
 obj=vowel(vo_wel) 
 print(obj.count_vowels())
